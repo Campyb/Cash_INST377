@@ -1,0 +1,55 @@
+<!–– Campbell Cash, INST 377, Kshetry ––>
+<html>
+<head>
+	<title>Feedback Form</title>
+</head>
+<table style="background-color:mistyrose">
+<col width="20%">
+<col width="20%">
+<style>
+table {
+	text-align: centerleft;
+	
+}
+textarea {
+	
+	width: 400px;
+    height: 200px;
+}
+</style>
+
+
+<form name="feedbackForm" method="post" action="ThankYou.html">
+<tr>
+	<th><p style=color:indianred>FEEDBACK</p></th>
+</tr>
+
+<tr>
+	<th>CaseID:</th>
+	<td><input type="text"></td>
+</tr>
+
+<tr>
+	<th>Subject*:</th>
+	<td><input type="text" size="100" required> </td>
+</tr>
+	
+</tr>
+
+<tr>
+	<th>Comment:</th>
+	<td><textarea></textarea></td>
+</tr>
+
+<tr>
+	<th>Importance:</th>
+	<td>
+		<input type="radio" name="Importance"> High </br>
+		<input type="radio" name="Importance"> Medium </br>
+		<input type="radio" name="Importance"> Low </br>
+		<input type="submit" value="Submit">
+	</td>
+</tr>
+
+</table>
+</html>
